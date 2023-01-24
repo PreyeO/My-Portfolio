@@ -6,7 +6,6 @@ import Card from '../Card/Card'
 import photo from '../Assets/piccc.PNG'
 import Skills from '../Skills/Skills'
 import {motion} from 'framer-motion'
-import Button from '../Button/Button'
 import { useEffect } from 'react'
 
 
@@ -24,7 +23,7 @@ const About = () => {
   useEffect(() => {
     window.speechSynthesis.getVoices(msg);
     window.speechSynthesis.speak(msg);
-    //eslint-disable-next-line
+  
 
   }, [msg])
 
@@ -44,25 +43,21 @@ const About = () => {
     <Card heading="Fast"
     skill='I prioritize fast loading times and lag free interactions.'/>
     <Card heading="Responsive"
-    skill='My layouts will work on any device. small or big.'/>
+    skill='My layouts will fit in to any device. Small or big.'/>
     <Card heading="Intuitive"
-    skill='I prioritize fast loading times and lag free interactions.'/>
+    skill='I am certain about my work and skills.'/>
     <Card heading="Dynamic"
-    skill='I prioritize fast loading times and lag free interactions.'/>
+    skill='I constantly improve and learn new skills and processes.'/>
     </div>
     <div className={classes.about_infos} >
-   <div className={classes.about_img_paragraph} >
+   <div className={classes.about_img_paragraph} > 
       <div className={classes.about_img} >
         <img src={photo} alt='profile_picture'onMouseEnter={() => speechHandler(msg)}/>
           </div>
         <p>I'm a software engineer with focus in Frontend web development.
-          I am a creative problem-solver with deep specialty in building and optimizing 
+          I am a creative problem-solver with deep specialty In building and optimizing 
           user-focused websites, clean designs and thoughtful interactions.</p>
-          <p>When i am not coding, i love to score songs🎼, watch movies🎥 and writeI✍️.</p>
-        
-          <div className={classes.btn}>
-          <a href="https://github.com/PreyeO" target="_blank" rel="noreferrer" aria-label='Github'><Button name='GitHub'/></a>
-          </div>
+          <p>When I am not coding, I love to score songs🎼, watch movies🎥 and write✍️.</p>
           </div>
         
         <motion.div className={classes.about_my_skills} animate={{ rotateX:'60deg'}} initial={{rotateX:'-60deg'}} transition={{repeat:Infinity,type:'tween', duration:5}}>

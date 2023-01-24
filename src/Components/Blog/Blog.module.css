@@ -13,7 +13,7 @@
   text-align: center;
   display:flex;
   flex-wrap: wrap;
-  gap:2.5rem
+  gap:3rem
 
 }
 .posts{
@@ -36,8 +36,15 @@
   margin-top: 2rem;
   line-height: 2rem;
 }
-  /* @media screen and (min-width:700px) and (max-width:1023px){
-    .blog_container{
-      transform: translateY(130px);
+@media screen and (max-width:736px){
+  .posts{
+    width:25rem;
+    height:25rem;
+  }
+  }
+
+  @media screen and (min-width:740px){
+    .posts{
+     transform:translateY(15rem);
     }
-    } */
+    }

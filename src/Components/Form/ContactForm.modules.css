@@ -37,3 +37,8 @@ input, textarea{
     transform: translateY(130px);
   }
   }
+  @media screen and (min-width:1250px){
+    form{
+     transform:translateY(8rem);
+    }
+    }

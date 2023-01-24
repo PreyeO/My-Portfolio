@@ -5,7 +5,7 @@
 }
 .hero_content{
   text-align: center;
-  transform: translateY(18vh);
+  transform: translateY(15vh);
   color: var(--color-white);
   line-height: 3.5rem;
 }
@@ -18,9 +18,9 @@ h3 span{
 }
 .hero_content h3{
 padding-top: 2rem;
-font-size: 2rem;
+font-size: 1.6rem;
 }
-.hero_content h2,h3{
+.hero_content h2{
   padding-top: 2rem;
   font-size: 3rem;
 }
@@ -31,6 +31,7 @@ font-size: 2rem;
   border-radius:90px;
   text-align: center;
 }
+
 
 
 

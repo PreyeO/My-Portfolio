@@ -4,7 +4,7 @@
   background-color: var(--color-bg);
 }
 .contact p{
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin:0 auto;
   padding-top: 5rem;
   max-width: 600px;
@@ -16,3 +16,4 @@
     transform: translateY(80px);
   }
   }
+ 

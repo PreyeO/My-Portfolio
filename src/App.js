@@ -22,8 +22,8 @@ function App() {
       id:1,
       title:'Food App',
       image:Food,
-      languages:'ReactJs, CSS, Styled component',
-      description:'This app was built to display major e-commerce modals like: dashboard, cart, orders and checkout.',
+      languages:'React and styled-component',
+      description:'This app was built to display modals like: dashboard, cart, orders and checkout.',
       github:"https://github.com/PreyeO/food-app",
       demo:"https://food-app-mocha.vercel.app"
     },
@@ -33,7 +33,7 @@ function App() {
       id:2,
       title:'GitHub Profile Finder',
       image:Git,
-      languages:'ReactJs and CSS',
+      languages:'React and CSS',
       description:'This app searches and displays GitHub profiles searched with thier usernames .',
       github:"https://github.com/PreyeO/GitHub-profi",
       demo:"https://github-profile-finder-sepia.vercel.app/"
@@ -45,7 +45,7 @@ function App() {
       title:'Cupid Dating App',
       image:Love,
       description:'This is a dating app demo that is currently using data fetched from an API.',
-      languages:'ReactJs, CSS',
+      languages:'React and CSS',
       github:"https://cupid-dating-app-pre.vercel.app",
       demo:"https://github.com/PreyeO/CUPID-DATING-APP"
     },
