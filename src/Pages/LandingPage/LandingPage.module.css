@@ -1,0 +1,10 @@
+.landing_page{
+  transition:var(--transition);
+}
+.landing_page h2{
+  font-size:2rem;
+  text-align: center;
+  margin-top: 10rem;
+  color:var(--color-light)
+
+}

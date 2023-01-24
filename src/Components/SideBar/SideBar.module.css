@@ -1,0 +1,16 @@
+.SideBar_icons{
+text-align: center;
+margin-top: 20px;
+}
+nav{
+  position: fixed;
+  left:0;
+  display: block;
+  width:max-content;
+  height: 100vh;
+  z-index: 2;
+  
+}
+
+
+

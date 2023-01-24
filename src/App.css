@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hamburger{
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  border-radius: 90px;
+  border: 2px solid rgb(128, 10, 238);
+  margin: auto -20px;
+  padding: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hamburger button{
+  background: transparent;
+  outline: none;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidebar{
+  padding-top: 20px;
+  border:1px solid red;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap:40px;
+  background-color: black;
+  position: absolute;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .sidebar_close{
+    width:85px
   }
-  to {
-    transform: rotate(360deg);
-  }
+/* .hamburger_open:hover span :nth-child(1){
+width:25px;
+transform: translate(-3px, 8px) rotate(30deg);
 }
+.hamburger_open:hover span :nth-child(2){
+  display: none;
+  }
+.hamburger_open:hover span :nth-child(3){
+  width:25px;
+  transform: translate(-3px, -8px) rotate(-30deg);
+  }
+  .hamburger_close:hover span :nth-child(1){
+    width:25px;
+    transform: translate(0, 8px) rotate(-30deg);
+    }
+    .hamburger_close:hover span :nth-child(2){
+      display: none;
+      }
+    .hamburger_close:hover span :nth-child(3){
+      width:25px;
+      transform: translate(0px, -8px) rotate(30deg);
+      } */

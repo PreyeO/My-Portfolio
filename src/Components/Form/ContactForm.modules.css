@@ -1,0 +1,39 @@
+form{
+  display: flex;
+  flex-direction: column;
+  gap:3rem;
+  max-width:30rem;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+
+}
+.form{
+  text-align: center;
+  font-size: 2rem;
+}
+
+form >input{
+  height:3rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+form>textarea{
+
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+input, textarea{
+  border-radius: 0.5rem;
+  background: transparent;
+  border:2px solid var(--color-primary-variant);
+  resize:none;
+  color:var(--color-white)
+}
+
+@media screen and (min-width:700px) and (max-width:1024px){
+  form{
+    transform: translateY(130px);
+  }
+  }

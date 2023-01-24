@@ -1,0 +1,99 @@
+.about{
+ overflow:hidden;
+  background-color: var(--color-bg-variant);
+}
+.about h5{
+  font-size: 1.3rem;
+}
+.btn{
+  text-align: right;
+  margin-bottom: 2rem;
+}
+.about_container{
+  display:flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 3rem;
+  
+}
+.about_img >img{
+border-radius: 2rem;
+width: 22rem;
+height: 25rem;
+transform: rotate(10deg);
+overflow: hidden;
+
+}
+.about_img{
+  width:100%;
+  border-radius: 2rem;
+  transition: var(--transition);
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display:grid;
+  place-items: center;
+}
+.about_img >img:hover{
+transform: rotate(0deg);
+}
+.about_img_paragraph{
+  display: flex;
+  flex-direction: column;
+}
+
+.about_my_skill{
+  width: 10rem;
+  
+  border:2px solid var(--color-bg);
+  border-radius:1rem;
+  transition:var(--transition);
+  text-align: center;
+  transform: skewX(-50deg);
+  background-color: var(--color-bg);
+}
+.about_my_skills{
+  display:flex;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 25rem;
+  height: auto;
+  gap:1rem;
+  justify-content: center;
+  
+}
+.about_infos{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+.about_infos p{
+  width:30rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-top: 2rem;
+  
+}
+
+#javascript, #writing, #rest{
+width:20rem;
+}
+section >h5{
+font-size: 1rem;
+padding-top: 10px;
+}
+
+/* @media screen and (max-width:1024px) {
+}
+
+@media screen and (max-width:600px) {
+  .about_my_skill{
+    width:15rem
+  }
+} */

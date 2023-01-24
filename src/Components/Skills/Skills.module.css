@@ -1,0 +1,13 @@
+
+.skills_card h4{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 2rem;
+  
+}
+.skills_content{
+  display:flex;
+  justify-content: center;
+  gap:5px;
+  text-align: center;
+}
