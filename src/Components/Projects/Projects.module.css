@@ -3,6 +3,7 @@
   height: auto;
   background-color: var(--color-bg);
   transform: translateY(-40px);
+  overflow: hidden;
 
  
 }
@@ -30,7 +31,6 @@ transform: translateY(-50px);
   border-radius:2rem;
   transition:var(--transition);
   background-color: var(--color-bg-variant);
-  overflow: hidden;
   
 }
 
@@ -40,8 +40,6 @@ transform: translateY(-50px);
 
 }
 .project_title{
-  display:flex;
-  justify-content: space-around;
   margin-top: 2rem;
   
 }
@@ -58,13 +56,13 @@ img{
   object-fit: cover;
   object-position: center;
 }
-.button_links{
+.btns{
   display:flex;
-  gap:2rem;
+  justify-content: space-around;
 }
 p{
   font-size: 1.4rem;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   letter-spacing: 1px;
 
 }

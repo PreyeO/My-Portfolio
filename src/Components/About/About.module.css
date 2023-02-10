@@ -2,6 +2,7 @@
  overflow:hidden;
   background-color: var(--color-bg-variant);
   color: #fff;
+  
 }
 .about h5{
   font-size: 1.3rem;
@@ -47,6 +48,9 @@ transform: rotate(0deg);
   display: flex;
   flex-direction: column;
 }
+.about_img_paragraph>p:hover{
+ color: #fff;
+}
 
 .about_my_skill{
   width: 10rem;
@@ -78,7 +82,7 @@ transform: rotate(0deg);
   font-size: 1.5rem;
   line-height: 2rem;
   padding-top: 2rem;
-  
+  margin-bottom: 0.5rem;
 }
 
 #javascript, #writing, #rest{

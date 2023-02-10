@@ -43,7 +43,7 @@ const About = () => {
     <Card heading="Fast"
     skill='I prioritize fast loading times and lag free interactions.'/>
     <Card heading="Responsive"
-    skill='My layouts will fit in to any device. Small or big.'/>
+    skill='My layouts will fit into any device. Small or big.'/>
     <Card heading="Intuitive"
     skill='I am certain about my work and skills.'/>
     <Card heading="Dynamic"

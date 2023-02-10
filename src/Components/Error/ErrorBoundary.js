@@ -20,7 +20,7 @@ import React, { Component } from 'react'
     render() {
       if (this.state.hasError) {
       
-        return <h1 style={{color:'red',textAlign:"center", paddingTop: 250}}>Oops!!! something went wrong.</h1>;
+        return <h1 style={{color:'#fff',textAlign:"center", paddingTop: 250}}>Oops!!! something went wrong.</h1>;
       }
   
       return this.props.children; 

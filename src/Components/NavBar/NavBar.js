@@ -5,7 +5,7 @@ import classes from'../NavBar/NavBar.modules.css'
 
 
 const NavBar = () => {
-  const [activeNav, setActiveNav] = useState('#about')
+  const [activeNav, setActiveNav] = useState('#portfolio')
 
   
   return (

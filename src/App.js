@@ -23,7 +23,7 @@ function App() {
       title:'Food App',
       image:Food,
       languages:'React and styled-component',
-      description:'This app was built to display modals like: dashboard, cart, orders and checkout.',
+      description:'Displays modals like: dashboard, cart, orders and checkout.',
       github:"https://github.com/PreyeO/food-app",
       demo:"https://food-app-mocha.vercel.app"
     },
@@ -34,8 +34,8 @@ function App() {
       title:'GitHub Profile Finder',
       image:Git,
       languages:'React and CSS',
-      description:'This app searches and displays GitHub profiles searched with thier usernames .',
-      github:"https://github.com/PreyeO/GitHub-profi",
+      description:'Displays GitHub profiles searched with their usernames .',
+      github:"https://github.com/PreyeO/GitHub-profile-finder",
       demo:"https://github-profile-finder-sepia.vercel.app/"
       
     },
@@ -44,10 +44,10 @@ function App() {
       id:3,
       title:'Cupid Dating App',
       image:Love,
-      description:'This is a dating app demo that is currently using data fetched from an API.',
+      description:'This dating app is currently using data fetched from an API.',
       languages:'React and CSS',
-      github:"https://cupid-dating-app-pre.vercel.app",
-      demo:"https://github.com/PreyeO/CUPID-DATING-APP"
+      github:"https://github.com/PreyeO/CUPID-DATING-APP",
+      demo:"https://cupid-dating-app-pre.vercel.app"
     },
   
   ]

@@ -1,11 +1,10 @@
 import React from 'react'
 import Title from '../Title/Title'
 import classes from '../Projects/Projects.module.css'
-
-
 import {FaGlobe } from 'react-icons/fa'
 import {GitHub} from '@mui/icons-material'
 import { motion } from 'framer-motion'
+import Button from '../Button/Button'
 
 const Projects = ({projectData}) => {
   
@@ -24,16 +23,22 @@ const Projects = ({projectData}) => {
             <img src={item.image} alt={item.title} />
             <div className={classes.project_title}>
             <h2>{item.title}</h2>
-        
-          
-            <div className={classes.button_links}>
+            </div>
+      
+            {/* <div className={classes.button_links}>
             <a href={item.github} target="_blank" rel="noreferrer" aria-label='Repo'><GitHub style={{width:'2rem', height:'2rem'}}/></a>
             <a href={item.demo} target="_blank" rel="noreferrer" aria-label='Demo'><FaGlobe style={{width:'2rem', height:'2rem'}}/></a>
          
-            </div>
-            </div>
+            </div> */}
+           
               <p>{item.description}</p>
-              <h4>Languages: {item.languages}</h4>
+              {/* <h4>Languages: {item.languages}</h4> */}
+                  
+      <div className={classes.btns}>
+            <a href={item.demo} target="_blank" rel="noreferrer" aria-label='Repo' className='btn'>Live Demo</a>
+
+            <a href={item.github} target="_blank" rel="noreferrer" aria-label='Demo'  className='btn btn_primary'>View GitHub</a>
+      </div>
 </div>
 </motion.div>      
         

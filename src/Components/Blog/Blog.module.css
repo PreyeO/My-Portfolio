@@ -1,6 +1,7 @@
 .blog{
   background-color:var(--color-bg-variant);
   height: 100vh;
+  overflow: hidden;
   
 } 
 
@@ -40,6 +41,7 @@
   .posts{
     width:25rem;
     height:25rem;
+    transform: translateY(5rem);
   }
   }
 

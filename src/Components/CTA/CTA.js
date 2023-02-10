@@ -1,6 +1,6 @@
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
-import CV from '../Assets/AYIBAKEPREYE OMUSUKU.pdf'
+import CV from '../Assets/Ayibakepreye Omusuku Resume.pdf'
 
 const CTA = () => {
   return (
