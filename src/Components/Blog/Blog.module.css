@@ -44,8 +44,13 @@
     transform: translateY(5rem);
   }
   }
+  @media screen and (min-width:740px) and (max-width:1000px){
+    .posts{
+     transform:translateY(29rem);
+    }
+    }
 
-  @media screen and (min-width:740px){
+  @media screen and (min-width:1001px){
     .posts{
      transform:translateY(15rem);
     }

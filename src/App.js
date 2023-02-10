@@ -7,7 +7,6 @@ import Love from "./Components/Assets/love.PNG"
 import 'react-toastify/dist/ReactToastify.css'
 import LandingPage from './Pages/LandingPage/LandingPage';
 import MyPortfolio from './Pages/MyPortfolio/MyPortfolio';
-import ErrorBoundary from './Components/Error/ErrorBoundary';
 import { Fragment} from 'react';
 
 
@@ -55,15 +54,12 @@ function App() {
  
   return (
     <Fragment>
-    <ErrorBoundary>
-    
     <Router>
       <Routes>
         <Route path='/' element={<LandingPage />}/>
         <Route path='/myportfolio' element={<MyPortfolio projectData={projectData}/>}/>
       </Routes>
     </Router>
-    </ErrorBoundary>
     </Fragment>
    
   
