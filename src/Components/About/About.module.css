@@ -1,8 +1,6 @@
 .about{
- overflow:hidden;
   background-color: var(--color-bg-variant);
-  color: #fff;
-  
+  color: #fff
 }
 .about h5{
   font-size: 1.3rem;

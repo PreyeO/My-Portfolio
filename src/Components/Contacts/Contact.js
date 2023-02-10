@@ -13,7 +13,7 @@ const Contact = () => {
         
       <Title name="Get In Touch"/>
       <div>
-      <p>I am interested in freelancing, 9-5 jobs and olunteering opportunities. However, if you have other request or question, don't hesitate to contact me.</p>
+      <p>I am interested in freelancing, 9-5 jobs and volunteering opportunities. However, if you have other request or question, don't hesitate to contact me.</p>
       </div>
       <ContactForm />
       </div>

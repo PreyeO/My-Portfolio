@@ -93,10 +93,12 @@ body{
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
+  overflow-x:hidden
 }
 html{
   scroll-behavior: smooth;
   font-size: 62.5%;   
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar{
   display: none;
@@ -190,14 +192,18 @@ p, h4{
 @media screen and (max-width:1024px) {
   .container{
     width:var(--container-width-md);
+   
   }
   section{
     margin-top: 6rem;
+    
   }
 }
 @media screen and (max-width:600px) {
+  
   .container{
     width:var(--container-width-ms);
+   
   }
   section > h2{
     margin-bottom: 2rem;
@@ -210,4 +216,5 @@ nav link .active{
     color: var(--color-white);
   
   }
+
   
