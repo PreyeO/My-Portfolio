@@ -14,7 +14,7 @@ const ContactForm = () => {
 
     emailjs.sendForm('service_58r2wyt', 'template_a2zsyre', form.current, 'l0I0JqGC9YbdMHWbO')
     e.target.reset()
-    toast.success('Thank you for reaching out. Message sent')
+    toast.success('Message received. I would get back to you shortly.')
   }
   return (
     <article>
@@ -22,10 +22,11 @@ const ContactForm = () => {
       <input type='text' placeholder='Full name' name='name'/>
       <input type='email' placeholder='janedoe@yahoo.com'name='email' />
       <textarea name='message' cols='20 'rows="10"placeholder='Type in message' message='message'/>
-      <ToastContainer/>
-    <Button name='Send Message' className='btn' id='form_button'/>
+    <Button name='Send Message' className='btn' id='form_button' />
     </form>
-   
+    <div className={classes.toast_message}>
+    <ToastContainer />
+    </div>
 
     </article>
   ) 

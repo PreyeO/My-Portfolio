@@ -31,6 +31,10 @@ input, textarea{
   resize:none;
   color:var(--color-white)
 }
+.toast_message{
+  margin-top:80px;
+  width:auto
+}
 
 @media screen and (min-width:700px) and (max-width:1024px){
   form{
