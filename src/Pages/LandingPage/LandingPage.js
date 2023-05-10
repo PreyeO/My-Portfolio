@@ -28,7 +28,7 @@ const LandingPage = () => {
       <section className={classes.landing_page}>
       <h2>I am glad to have you here🤗</h2>
      <div className='container'>
-     <CountDown seconds={5}style/>
+     <CountDown seconds={5} />
      </div>
    </section>
     )}

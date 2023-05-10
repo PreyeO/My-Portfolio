@@ -35,6 +35,9 @@ input, textarea{
   margin-top:80px;
   width:auto
 }
+form>input{
+  height: 40px;
+}
 
 @media screen and (min-width:700px) and (max-width:1024px){
   form{

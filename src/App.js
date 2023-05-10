@@ -30,12 +30,12 @@ function App() {
     {
 
       id:2,
-      title:'GitHub Profile Finder',
+      title:'GitHub Profile Guru',
       image:Git,
-      languages:'React and CSS',
+      languages:'Vuejs, composition API and CSS',
       description:'Displays GitHub profiles searched with their usernames .',
-      github:"https://github.com/PreyeO/GitHub-profile-finder",
-      demo:"https://github-profile-finder-sepia.vercel.app/"
+      github:"https://github.com/PreyeO/Profile-Guru",
+      demo:"https://profile-guru.vercel.app/"
       
     },
     {
